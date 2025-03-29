@@ -1,0 +1,38 @@
+# Node modules
+node_modules/
+**/node_modules/
+
+# Hardhat & Truffle artifacts
+artifacts/
+cache/
+typechain/
+coverage/
+dist/
+build/
+
+# TypeScript output
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+
+# Package lockfiles (if you're using yarn, you can remove package-lock.json)
+package-lock.json
+
+# Misc
+*.log
