@@ -1,0 +1,20 @@
+{
+  "name": "staking-sdk",
+  "version": "1.0.0",
+  "description": "SDK for interacting with the staking system",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "viem": "^2.7.9",
+    "webauthn-p256": "^1.0.0",
+    "@metamask/delegation-utils": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "typescript": "^5.3.3"
+  }
+} 
